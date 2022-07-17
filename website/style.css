@@ -1,0 +1,43 @@
+body{
+    background-color: #fff;
+    margin: 0;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    display: flex;
+	flex-direction: column;
+ 	box-sizing: border-box;
+	color: #FFFFFF;
+}
+
+header{
+    height: 100px;
+    display: flex;
+	flex-direction: row;
+	justify-content: space-between;    
+    align-items: center;
+
+    background: #17161C;
+}
+
+header > h1{
+
+    margin: 5%;
+    font-family: 'Passion One';
+    font-weight: 400;
+    font-size: 48px;
+    text-align: center;
+
+    color: #ECDF68;
+}
+
+header > div.navbar_menu{
+    margin: 5%;
+}
+
+header > div.navbar_menu > a{
+    margin: 15px;
+	text-decoration: none;
+	color: #fff;
+    font-family: 'Passion One';
+    font-size: 48px;
+}
+
